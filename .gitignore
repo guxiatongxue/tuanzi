@@ -1,0 +1,9 @@
+/accounts/
+/config/
+/unidbg-fetch-qsign-onekey/
+/data/
+/venv/
+/.env.prod
+/resource/
+/plugins/tuanchat/
+.idea
