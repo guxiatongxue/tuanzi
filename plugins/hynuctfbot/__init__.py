@@ -22,7 +22,7 @@ from nonebot_plugin_apscheduler import scheduler
 status = False
 # 比赛配置
 before_notice_id = 0
-group_id = 756056844
+group_id = 000000 # 群号
 game_id = 1
 
 start_notice = on_command('开启解题播报', priority=1, block=True, permission=SUPERUSER | GROUP_ADMIN | GROUP_OWNER)
@@ -50,9 +50,9 @@ async def stop_notice():
 async def get_info() -> str:
     global before_notice_id
     cookie = {
-        'GZCTF_Token': 'CfDJ8HlS8NpeMZRHjIbcSNWQm6yXt0hAj0U_XKD2m2EYeMhJI5gGLkM_eM0x_FMcF39hMdKwBJxpZi5RA42ary8lWBVo76yRanq4SyEqYlS5AvO2jlaMXtkwaxq7XGGmnuJJyXByGIwCXxHFlrkZ0uxPkpHNfip7Ux_QPRdVJCX_f-aTKe69B7vnVWvaEEtN7PTkYE4UBRsWlLGtEdzNJu1ysW5fkBMaGU3j2a5zlXAntv3CoLI0Kq46e1InZU_z_-KN79nqxAnfCTw_TwNqqkQ33Erb7tsHALkmmJ_NygUJSPF6Oz_sVsE2fC2hov3E0GSzLtCElpdkRVmuo_Ru8F--_ZANrQFbR6_dg8JE10XB0xlxga1HWt07PzWivFp_ZRxF5QdLPUZTsO_Quqb7-OwQUwMf_n31_K2ksR-_vQw9X7aZtzBfmywN1bEKfexnoL0FG-nXt33O9PEXJQbnjjGBFRYI2OnUxhJsnnm8qmYPlWqgfRKIRegj__72r6KiTcO4ttlpCDZrcBj4dtfk_iTUk8MpmtnTfEVJgie3ghQ69vHQV0xNWKVLmL-COZLQmDMwf4pNNQvKOCpB91TbEkYrliKnwJmtJyYYmG_SxC_5ayJeYY_pcU43g0vKPO-rdKwOWAK-6oSlg5ovsCaRNdTj3w23ChqEbj_G_DH3bhoA5dUEs2XwoQPMDD6ulGOAbwzra36wdTjPUfcEV55WPxmSFI0'
+        'GZCTF_Token': ''
     }
-    url = f"http://123.207.1.236/api/game/{game_id}/notices"
+    url = f"https://xxx.xxx.xxx/api/game/{game_id}/notices"
     response = requests.get(url, cookies=cookie)
 
     if response.status_code != 200:

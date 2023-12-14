@@ -1,9 +1,11 @@
 /accounts/
 /config/
-/unidbg-fetch-qsign-onekey/
 /data/
 /venv/
 /.env.prod
 /resource/
 /plugins/tuanchat/
 .idea
+/unidbg-fetch-qsign-onekey/logs
+/unidbg-fetch-qsign-onekey/config.yml
+/unidbg-fetch-qsign-onekey/device.json
