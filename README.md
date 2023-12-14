@@ -1,4 +1,4 @@
-# tuanzi
+# tuanzi-windows
 悲伤，go-cqhttp的时代过去了  
 见：https://github.com/Mrs4s/go-cqhttp/issues/2471  
 本项目正在准备迁移，截止2023/12/06仍然可以正常使用  
