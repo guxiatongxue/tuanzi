@@ -31,10 +31,11 @@ callback_notice=true # 如果不想开启设置成 false 或者不添加此配�
 适用于gzctf的QQ机器人，由于腾讯的封堵，且用且珍惜
 #### 解题播报
 QQ对话框输入“开启解题播报”即可，关闭输入“关闭解题播报”  
-![](src\image\1.png)
+![](src/image/1.png)
 #### 查看排行榜
 QQ对话框输入“获取排行榜”即可  
-![](src\image\2.png)
+![](src/image/2.png)
+
 ### 其他  
 [nonebot-plugin-imageutils](https://github.com/noneplugin/nonebot-plugin-imageutils)  
 [nonebot-plugin-petpet](https://github.com/noneplugin/nonebot-plugin-petpet)  
