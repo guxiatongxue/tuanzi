@@ -25,6 +25,16 @@ tenkeys="xxxxxx"
 callback_notice=true # 如果不想开启设置成 false 或者不添加此配置项【默认关闭】
 ```
 详情见大佬仓库  
+
+### hynuctfbot
+此插件由我独立开发，二开请注明来源  
+适用于gzctf的QQ机器人，由于腾讯的封堵，且用且珍惜
+#### 解题播报
+QQ对话框输入“开启解题播报”即可，关闭输入“关闭解题播报”  
+![](src\image\1.png)
+#### 查看排行榜
+QQ对话框输入“获取排行榜”即可  
+![](src\image\2.png)
 ### 其他  
 [nonebot-plugin-imageutils](https://github.com/noneplugin/nonebot-plugin-imageutils)  
 [nonebot-plugin-petpet](https://github.com/noneplugin/nonebot-plugin-petpet)  
@@ -36,4 +46,3 @@ https://zhuanlan.zhihu.com/p/648312642
 https://github.com/fuqiuluo/unidbg-fetch-qsign/wiki/%E9%83%A8%E7%BD%B2%E5%9C%A8Windows  
 ## PS
 nH0pe的机器人，目前用于HYNUCTF  
-hynuctfbot插件由我独立开发，二开请注明来源

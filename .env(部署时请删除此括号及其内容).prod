@@ -4,7 +4,7 @@ PORT=8080  # 配置 NoneBot 监听的端口
 COMMAND_START=[""]  # 配置命令起始字符
 COMMAND_SEP=[" "]  # 配置命令分割字符
 SUPERUSERS=[""]
-SESSION_EXPIRE_TIMEOUT=30
+SESSION_EXPIRE_TIMEOUT=30d
 SESSION_RUNNING_EXPRESSION="别急,团子要宕机了!TT"
 NICKNAME=["团子", "小团子"]
 
